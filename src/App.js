@@ -13,7 +13,6 @@ function App() {
       <Header />
 
       <Routes>
-      
         <Route path="/users" element={<Users />} />
         <Route path="/users/:id" element={<Details />} />
         <Route path="/photos" element ={<Photos/>}/>
